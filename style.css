@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nosifer&family=Pacifico&family=Ranchers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&family=Pacifico&family=Ranchers&family=Pixelify+Sans&display=swap");
 
 * {
   margin: 0;
@@ -30,6 +30,7 @@ body {
   background-position: top center;
   background-size: cover; */
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -37,9 +38,9 @@ body * {
 }
 
 #container {
-  width: 360px;
-  height: 712px;
-  margin: 56px auto 0px;
+  width: 100%;
+  max-width: 588px;
+  margin: auto;
   padding: 0 24px;
 }
 
@@ -150,70 +151,59 @@ footer {
   text-align: center;
 }
 
-/* @MEDIA Queries */
-@media only screen and (max-width: 767px) {
-  .line {
-    display: block;
-  }
-
-  header .container,
-  .container {
-    padding: 15px;
-  }
-
-  header .column-right,
-  .main .column {
-    flex-basis: 100%;
-  }
-
-  header .column img {
-    max-width: 100px;
-  }
+.experiences-section {
+  font-family: "Pixelify Sans", sans-serif;
+  padding: 10px;
+}
+.experiences-section p {
+  padding: 10px;
+}
+.experiences-section h4 {
+  margin-top: 10px;
 }
 
-@media only screen and (min-width: 768px) {
-  .wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  #profile img {
-    width: 70%;
-    padding: 24px 24px 0px 24px;
-  }
-}
-
-@media only screen and (max-width: 413px) {
-  body {
-    font-size: 12px;
-  }
-
-  * {
-    font-family: "Ranchers", cursive !important;
-    margin: 0;
-    padding: 0;
-  }
-
-  #social-links {
-    display: flex;
-    justify-content: center;
-    gap: 2px;
-    padding: 0;
-    margin: 0;
-  }
-
-  ul {
-    padding: 10px 0 10px 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  li {
-    width: 200px;
-    margin: 0 auto; /* Adiciona esta linha para centralizar horizontalmente */
-  }
-
+@media screen and (max-width: 460px) {
   ul li a {
-    margin: 0;
-    padding: 0;
+    font-size: 9px;
+    font-family: "Arial", sans-serif;
+    margin: auto;
+    padding: auto;
+  }
+
+  #container {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+  }
+
+  #profile {
+    text-align: center;
+    margin: auto;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: auto;
+    margin: auto;
+  }
+
+  .responsibilities {
+    display: none;
+  }
+
+  #curriculum {
+    font-size: 12px;
+    width: auto;
+    min-width: 150px;
+  }
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
