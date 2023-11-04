@@ -162,6 +162,16 @@ footer {
   margin-top: 10px;
 }
 
+img {
+  width: 50%;
+}
+
+#portfolio h4 {
+  font-family: "Pixelify Sans", sans-serif;
+  padding: 6px;
+  font-size: 14px;
+}
+
 @media screen and (max-width: 460px) {
   ul li a {
     font-size: 9px;
