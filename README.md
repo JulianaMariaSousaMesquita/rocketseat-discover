@@ -1,6 +1,8 @@
 # Rocketseat - Discover
 
-Este repositório foi criado para acompanhar o curso **"Aprenda a Programar do Zero"** oferecido pela Rocketseat. Aqui está um resumo dos 6 módulos incluídos:
+Este repositório foi criado para acompanhar o curso **"Aprenda a Programar do Zero"** oferecido pela Rocketseat.
+
+- <a href="https://julianamariasousamesquita.github.io/rocketseat-discover/" target="_blank"> Acesse aqui para ver o projeto online. </a>
 
 ## Objetivo
 
@@ -13,31 +15,37 @@ Cada módulo do curso terá sua própria pasta no repositório, onde será poss�
 ## Módulos:
 
 ### 1. Primeiros Passos
+
 - **Aulas:** 11 aulas
 - **Duração Total:** 46 minutos e 28 segundos
 - **Descrição:** Introdução ao curso, apresentação do mercado de programação e resolução das principais dúvidas para quem está ingressando nesse universo.
 
 ### 2. Aprendendo a Aprender
+
 - **Aulas:** 9 aulas
 - **Duração Total:** 34 minutos e 46 segundos
 - **Descrição:** Aborda estratégias de aprendizado e explora as principais questões de quem está iniciando no mundo da programação.
 
 ### 3. Iniciando o HTML e CSS
+
 - **Aulas:** 23 aulas
 - **Duração Total:** 1 hora, 28 minutos e 27 segundos
 - **Descrição:** Comece a construir o projeto DevLinks e aprenda os fundamentos práticos de HTML e CSS, tecnologias essenciais para a Web.
 
 ### 4. Avançando o HTML e CSS
+
 - **Aulas:** 19 aulas
 - **Duração Total:** 1 hora, 15 minutos e 4 segundos
 - **Descrição:** Conclua mais de 90% do projeto, explorando conceitos avançados de HTML e CSS.
 
 ### 5. Javascript
+
 - **Aulas:** 8 aulas
 - **Duração Total:** 31 minutos e 33 segundos
 - **Descrição:** Introdução à linguagem JavaScript, fundamental para a programação web. Aprenda de forma leve e descontraída sobre algoritmos, variáveis, funções e objetos.
 
 ### 6. Git e GitHub
+
 - **Aulas:** 11 aulas
 - **Duração Total:** 41 minutos e 33 segundos
 - **Descrição:** Descubra o poder do Git e GitHub para publicar e manter o histórico do seu projeto, além de explorar tópicos mais modernos em CSS.
@@ -52,3 +60,6 @@ Sinta-se à vontade para explorar cada seção de acordo com suas necessidades e
 
 Espero que este repositório auxilie no acompanhamento do curso. Bons estudos!
 
+## Projeto desenvolvido:
+
+<img src="./assets/image.png" width="400"> <img src="./assets/image-1.png" width="400">
