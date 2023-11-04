@@ -15,7 +15,7 @@
   --switch-bg-url: url(./assets/MoonStars.svg);
 }
 
-.lighty {
+.light {
   --text-color: black;
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgb(0, 0, 0, 0.5);
@@ -82,7 +82,7 @@ body * {
   transform: translateY(-50%);
 }
 
-.lighty #switch button {
+.light #switch button {
   right: 0;
   left: initial;
 }
