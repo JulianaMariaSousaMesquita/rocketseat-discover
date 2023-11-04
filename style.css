@@ -149,3 +149,71 @@ footer {
   padding: 24px 0;
   text-align: center;
 }
+
+/* @MEDIA Queries */
+@media only screen and (max-width: 767px) {
+  .line {
+    display: block;
+  }
+
+  header .container,
+  .container {
+    padding: 15px;
+  }
+
+  header .column-right,
+  .main .column {
+    flex-basis: 100%;
+  }
+
+  header .column img {
+    max-width: 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  #profile img {
+    width: 70%;
+    padding: 24px 24px 0px 24px;
+  }
+}
+
+@media only screen and (max-width: 413px) {
+  body {
+    font-size: 12px;
+  }
+
+  * {
+    font-family: "Ranchers", cursive !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  #social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul {
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    width: 200px;
+    margin: 0 auto; /* Adiciona esta linha para centralizar horizontalmente */
+  }
+
+  ul li a {
+    margin: 0;
+    padding: 0;
+  }
+}
